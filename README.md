@@ -1,51 +1,68 @@
-WeatherFixPro 🌦️
 
-Live Demo
+
+# WeatherFixPro 🌦️
+
+[Live Demo](https://weatherfixpro.netlify.app/)
 
 WeatherFixPro is a modern weather application built with React, Vite, and Tailwind CSS, using the OpenWeatherMap API to provide real-time weather data, including temperature, weather conditions, wind speed, and humidity for any city worldwide.
 
-Features
-Search by City: Quickly retrieve current weather information by entering a city name.
-Real-Time Updates: Displays accurate, up-to-date weather data.
-Dynamic Icons: Shows weather-specific icons based on current conditions.
-Responsive Design: Built with Tailwind CSS, optimized for all devices and screen sizes.
-Tech Stack
-Frontend: React, Vite, Tailwind CSS, JavaScript
-API: OpenWeatherMap API
-Getting Started
-Prerequisites
-Ensure Node.js is installed on your machine.
+## Features
 
-Installation
-Clone the repository:
+- **Search by City**: Quickly retrieve current weather information by entering a city name.
+- **Real-Time Updates**: Displays accurate, up-to-date weather data.
+- **Dynamic Icons**: Shows weather-specific icons based on current conditions.
+- **Responsive Design**: Built with Tailwind CSS, optimized for all devices and screen sizes.
 
-bash
-Copy code
-git clone https://github.com/yourusername/weatherfixpro.git
-cd weatherfixpro
-Install the dependencies:
+## Tech Stack
 
-bash
-Copy code
-npm install
-Obtain an API key from OpenWeatherMap.
+- **Frontend**: React, Vite, Tailwind CSS, JavaScript
+- **API**: [OpenWeatherMap API](https://openweathermap.org/api)
 
-Create a .env file in the root directory and add your API key:
+## Getting Started
 
-env
-Copy code
-VITE_WEATHER_API_KEY=your_api_key
-Run the app:
+### Prerequisites
 
-bash
-Copy code
-npm run dev
-Open http://localhost:5173 to view the app.
+Ensure [Node.js](https://nodejs.org/) is installed on your machine.
 
-Usage
-Enter a city name in the search box to get weather details.
-The app displays temperature, weather conditions, wind speed, and humidity for the location.
-Screenshots
+### Installation
 
-License
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AMOHAMMEDIMRAN/React-Weather-Proo.git
+   cd weatherfixpro
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Obtain an API key from [OpenWeatherMap](https://openweathermap.org/api).
+
+4. Create a `.env` file in the root directory and add your API key:
+
+   ```env
+   VITE_WEATHER_API_KEY=your_api_key
+   ```
+
+5. Run the app:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:5173](http://localhost:5173) to view the app.
+
+## Usage
+
+- Enter a city name in the search box to get weather details.
+- The app displays temperature, weather conditions, wind speed, and humidity for the location.
+
+
+
+## License
+
 This project is licensed under the MIT License.
+
