@@ -29,7 +29,7 @@ Ensure [Node.js](https://nodejs.org/) is installed on your machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AMOHAMMEDIMRAN/React-Weather-Proo.git
+   git clone https://github.com/AMOHAMMEDIMRAN/React-Weather-Pro.git
    cd weatherfixpro
    ```
 
