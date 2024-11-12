@@ -30,7 +30,7 @@ const Weather = () => {
           <input
             type="text"
             placeholder="Search city"
-            className="input rounded-[50px] input-info w-[90] max-w-xs bg-[#fff]"
+            className="input rounded-[50px] input-info w-[80%] max-w-xs bg-[#fff]"
             onChange={(e) => setCity(e.target.value)}
           />
           <button onClick={fetchWeather}>
@@ -48,14 +48,14 @@ const Weather = () => {
           <div className="weather-condition">
             <div className="flex justify-evenly items-center flex-col">
               
-              <h2 className="text-[55px] font-bold text-[#fff]">
+              <h2 className="text-[4rem] font-bold text-[#fff]">
                 {Math.floor(weather.main.temp)}°C
               </h2>
               <p className="font-semibold text-[#fff]">{weather.weather[0].main}</p>
               <TiWeatherSunny size={130} color="#ffa201" />
             </div>
             <div className="location flex justify-center">
-              <h1 className="text-[55px] font-bold text-[#fff]">
+              <h1 className="text-[2rem] font-bold text-[#fff]">
                 {weather.name}
               </h1>
             </div>
