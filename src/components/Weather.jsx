@@ -25,7 +25,7 @@ const Weather = () => {
 
   return (
     <div className="w-[100%] h-[100vh] flex items-center justify-center  ">
-      <div className="weather-container w-[280px] h-[400px] bg-[#3030f8] rounded-[30px] ">
+      <div className="weather-container w-[290px] h-[400px] bg-[#f84200] rounded-[30px] ">
         <div className="search-bar flex items-center justify-around my-[20px]">
           <input
             type="text"
